@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tes Logika 20 Soal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f6;--cd:#fff;--tx:#14213d;--mu:#5d6679;--ac:#3a5bd9;--on:#fff;--hi:#ffb703;--ln:#d5dbe8;--gr:rgba(20,33,61,.06);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1424;--cd:#181f35;--tx:#e8ecf8;--mu:#99a3bd;--ac:#8fa8ff;--on:#0f1424;--ln:#2b3554;--gr:rgba(232,236,248,.05)}}
+:root[data-theme="dark"]{--bg:#0f1424;--cd:#181f35;--tx:#e8ecf8;--mu:#99a3bd;--ac:#8fa8ff;--on:#0f1424;--ln:#2b3554;--gr:rgba(232,236,248,.05)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100vh;font:16px/1.55 Sora,system-ui,sans-serif;color:var(--tx);background:linear-gradient(var(--gr) 1px,transparent 1px) 0 0/24px 24px,linear-gradient(90deg,var(--gr) 1px,transparent 1px) 0 0/24px 24px,var(--bg)}
+.w{max-width:600px;margin:0 auto;padding:20px 16px 40px}
+.c{background:var(--cd);border:1px solid var(--ln);border-radius:16px;padding:26px 22px}
+h1{font-size:2.3rem;line-height:1.1;margin:0 0 12px;font-weight:800}
+h2{font-size:1.5rem;margin:0 0 14px;font-weight:800}
+p{margin:0 0 12px}.m{color:var(--mu);font-size:.88rem}
+button{font:inherit;cursor:pointer;color:var(--tx);background:var(--cd);border:1.5px solid var(--ln);border-radius:12px;padding:13px 16px;min-height:52px;text-align:left;overflow-wrap:anywhere;transition:transform .12s,border-color .12s,background .12s}
+button:hover{border-color:var(--ac);transform:translateY(-1px)}button:active{transform:scale(.98)}
+button:focus-visible,input:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+.go{background:var(--ac);color:var(--on);border-color:var(--ac);font-weight:600;text-align:center;width:100%;margin-top:8px}
+.gh{text-align:center;width:100%;margin-top:8px}
+.top{display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:.9rem;margin-bottom:10px}
+.chip{background:var(--bg);border:1px solid var(--ln);border-radius:20px;padding:2px 12px;font-variant-numeric:tabular-nums}
+.ticks{display:flex;gap:3px;margin-bottom:24px}.ticks i{flex:1;height:6px;border-radius:3px;background:var(--ln);transition:background .2s}.ticks i.d{background:var(--ac)}.ticks i.n{background:var(--hi)}
+.q{font-size:1.15rem;margin-bottom:20px;min-height:96px}.q b{font-size:1.7rem;letter-spacing:.04em}
+.big{font-size:1.7rem;line-height:1.6;overflow-wrap:anywhere}
+.g{display:grid;grid-template-columns:repeat(3,64px);gap:8px;margin-top:12px}.g i{font-style:normal;font-weight:600;font-size:1.3rem;text-align:center;padding:12px 0;border:1.5px solid var(--ln);border-radius:8px}
+.op{display:grid;gap:10px}
+.op button{display:flex;gap:12px;align-items:center}
+.op b{flex:none;width:28px;height:28px;border-radius:8px;background:var(--ln);display:grid;place-items:center;font-size:.85rem}
+.op button.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 14%,var(--cd))}.op button.sel b{background:var(--ac);color:var(--on)}
+.in{animation:in .24s ease-out}@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.iq{font-size:5.5rem;font-weight:800;line-height:1;color:var(--ac);margin:2px 0 6px;font-variant-numeric:tabular-nums}
+.lb{font-weight:600;margin-bottom:16px}
+.st{display:flex;gap:28px;margin-bottom:18px}.st div{font-size:.88rem;color:var(--mu)}.st b{display:block;font-size:1.4rem;color:var(--tx)}
+ul{padding-left:18px;margin:8px 0 16px;font-size:.9rem}
+.fm{border-top:1px solid var(--ln);padding-top:16px;margin-top:6px}
+input{font:inherit;color:var(--tx);background:var(--bg);border:1.5px solid var(--ln);border-radius:12px;padding:13px 14px;width:100%;box-sizing:border-box}
+.r{display:grid;grid-template-columns:34px 1fr 52px 56px;gap:8px;padding:11px 12px;border-bottom:1px solid var(--ln);align-items:center;font-variant-numeric:tabular-nums}
+.r.h{color:var(--mu);font-size:.82rem}.r.k{background:color-mix(in srgb,var(--hi) 24%,transparent);font-weight:600}.r.me{background:color-mix(in srgb,var(--ac) 16%,transparent);font-weight:600}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head>
+<body><div class="w">
+<section id="s0" class="c">
+<h1>Tes Logika</h1>
+<p>20 soal pola dan logika, dari yang mudah sampai yang menjebak. Tidak ada batas waktu per soal, tapi waktu total dihitung dan jawaban tidak bisa diulang. Kamu juga bisa pakai tombol 1 sampai 4 di keyboard.</p>
+<p class="m">Hasilnya estimasi IQ untuk hiburan, bukan tes IQ resmi.</p>
+<button id="go" class="go">Mulai</button>
+<button id="lbb" class="gh">Lihat leaderboard</button>
+</section>
+<section id="s1" class="c" hidden>
+<div class="top"><span id="pg"></span><span id="tm" class="chip"></span></div>
+<div class="ticks" id="tk"></div>
+<div id="q" class="q"></div><div id="op" class="op"></div>
+</section>
+<section id="s2" class="c" hidden>
+<p class="m">Estimasi IQ kamu</p>
+<div class="iq" id="iq"></div>
+<div class="lb" id="lb"></div>
+<div class="st"><div><b id="sk"></b>skor</div><div><b id="wk"></b>waktu</div></div>
+<div id="rv"></div>
+<div class="fm" id="fm">
+<p>Masukkan namamu ke leaderboard:</p>
+<input id="nm" maxlength="14" placeholder="Nama (maks. 14 huruf)" autocomplete="off">
+<button id="sv" class="go">Masuk leaderboard</button>
+</div>
+<button id="re" class="gh">Ulangi tes</button>
+</section>
+<section id="s3" class="c" hidden>
+<h2>Leaderboard</h2>
+<div id="bd"></div>
+<p class="m" id="rk" style="margin-top:14px"></p>
+<p class="m">Data tersimpan di cookie browser ini, jadi hanya terlihat di perangkat kamu.</p>
+<button id="re2" class="go">Main lagi</button>
+</section>
+</div>
+<script>
+const Q=[
+["Lanjutkan pola:<br><b>5, 10, 15, 20, ?</b>",["25","30","35","22"]],
+["Lanjutkan pola:<br><b>Z, X, V, T, ?</b>",["R","S","Q","P"]],
+["Lanjutkan pola:<br><span class=big>🟦🟨🟦🟨🟦 ?</span>",["🟨","🟦","🟥","🟩"]],
+["Lanjutkan pola:<br><b>2, 4, 8, 16, ?</b>",["32","24","30","36"]],
+["Mana yang tidak sejenis?",["Kucing","Kursi","Meja","Lemari"]],
+["Lanjutkan pola:<br><b>1, 3, 6, 10, 15, ?</b>",["21","20","22","24"]],
+["Dokter : Rumah sakit = Guru : ?",["Sekolah","Buku","Murid","Kelas"]],
+["Lanjutkan pola:<br><b>81, 27, 9, 3, ?</b>",["1","0","2","6"]],
+["Lanjutkan pola:<br><b>A1, C3, E5, G7, ?</b>",["I9","H8","J10","I8"]],
+["Lanjutkan pola:<br><b>3, 5, 9, 17, 33, ?</b>",["65","64","66","49"]],
+["Jika 🍎 + 🍎 = 12 dan 🍎 + 🍌 = 9, maka 🍌 = ?",["3","4","6","2"]],
+["Mana yang melanjutkan pola ini?<br><span class=big>⬜⬛ · ⬛⬜⬛ · ⬜⬛⬜⬛ · ?</span>",["⬛⬜⬛⬜⬛","⬜⬛⬜⬛⬜","⬛⬜⬛⬜⬛⬜","⬜⬛⬜⬛⬜⬛"]],
+["Cari angka yang hilang:<div class=g><i>2</i><i>3</i><i>13</i><i>4</i><i>5</i><i>41</i><i>3</i><i>4</i><i>?</i></div>",["25","12","24","19"]],
+["Lanjutkan pola:<br><b>1, 2, 4, 7, 11, 16, ?</b>",["22","21","23","24"]],
+["Lanjutkan pola:<br><b>2, 3, 5, 7, 11, 13, ?</b>",["17","15","19","18"]],
+["Dua pola berselang-seling. Lanjutkan:<br><b>5, 2, 10, 4, 20, 8, 40, ?</b>",["16","12","80","32"]],
+["Lanjutkan pola:<br><b>AZ, BY, CX, DW, ?</b>",["EV","EW","FV","DV"]],
+["Semua kucing adalah hewan.<br>Semua hewan bernapas.<br>Maka pasti benar bahwa:",["Semua kucing bernapas","Semua yang bernapas adalah kucing","Semua hewan adalah kucing","Tidak ada kucing yang bernapas"]],
+["Budi berumur 3 kali umur adiknya. Empat tahun lagi, umur Budi tepat 2 kali umur adiknya. Berapa umur Budi sekarang?",["12","9","15","18"]],
+["Lanjutkan pola:<br><b>1, 4, 27, 256, ?</b>",["3125","1024","625","3025"]]
+];
+const NK={n:"Niko",i:145,t:120,k:1},CK="tl_board";
+const $=id=>document.getElementById(id);
+let qs,i,sc,t0,tick,ans,last,lock;
+const sh=a=>{a=a.slice();for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a};
+const fmt=s=>Math.floor(s/60)+":"+String(s%60).padStart(2,"0");
+const show=id=>{["s0","s1","s2","s3"].forEach(s=>$(s).hidden=s!==id);window.scrollTo(0,0)};
+const srt=(x,y)=>y.i-x.i||x.t-y.t;
+function rd(){
+  try{const m=document.cookie.split("; ").find(c=>c.indexOf(CK+"=")===0);if(m)return JSON.parse(decodeURIComponent(m.slice(CK.length+1))).filter(e=>e&&typeof e.n==="string")}catch(e){}
+  try{return(JSON.parse(localStorage.getItem(CK))||[]).filter(e=>e&&typeof e.n==="string")}catch(e){}
+  return[];
+}
+function wr(a){
+  try{document.cookie=CK+"="+encodeURIComponent(JSON.stringify(a))+"; max-age=31536000; path=/; SameSite=Lax"}catch(e){}
+  try{localStorage.setItem(CK,JSON.stringify(a))}catch(e){}
+}
+function row(v,cls){const r=document.createElement("div");r.className="r "+cls;v.forEach(x=>{const s=document.createElement("span");s.textContent=x;r.appendChild(s)});return r}
+function board(me){
+  const all=[NK].concat(rd().sort(srt)),box=$("bd");box.innerHTML="";
+  box.appendChild(row(["#","Nama","IQ","Waktu"],"h"));
+  all.slice(0,10).forEach((e,k)=>box.appendChild(row([k+1,e.n,e.i,fmt(e.t)],(e.k?"k ":"")+(me&&e.d===me?"me":""))));
+  const p=me?all.findIndex(e=>e.d===me)+1:0;
+  $("rk").textContent=p?"Peringkat kamu: #"+p+" dari "+all.length:"";
+  show("s3");
+}
+function start(){
+  qs=Q.map(x=>({q:x[0],c:x[1][0],o:sh(x[1])}));i=0;sc=0;ans=[];lock=false;t0=Date.now();
+  $("tk").innerHTML=qs.map(()=>"<i></i>").join("");
+  show("s1");clearInterval(tick);
+  $("tm").textContent="Waktu 0:00";
+  tick=setInterval(()=>{$("tm").textContent="Waktu "+fmt(Math.floor((Date.now()-t0)/1000))},500);
+  render();
+}
+function render(){
+  const x=qs[i];
+  $("pg").textContent="Soal "+(i+1)+" dari "+qs.length;
+  [...$("tk").children].forEach((e,k)=>e.className=k<i?"d":k===i?"n":"");
+  $("q").innerHTML=x.q;$("op").innerHTML="";
+  x.o.forEach((o,k)=>{const b=document.createElement("button"),l=document.createElement("b"),s=document.createElement("span");l.textContent="ABCD"[k];s.textContent=o;b.append(l,s);b.onclick=()=>pick(o,b);$("op").appendChild(b)});
+  ["q","op"].forEach(id=>{const e=$(id);e.classList.remove("in");void e.offsetWidth;e.classList.add("in")});
+}
+function pick(o,b){
+  if(lock)return;lock=true;b.classList.add("sel");
+  setTimeout(()=>{const ok=o===qs[i].c;ans.push(ok);if(ok)sc++;i++;lock=false;i<qs.length?render():finish()},220);
+}
+function count(to){
+  const el=$("iq");
+  if(matchMedia("(prefers-reduced-motion:reduce)").matches){el.textContent=to;return}
+  let s=null;const f=ts=>{s=s||ts;const p=Math.min((ts-s)/1000,1);el.textContent=Math.round(70+(to-70)*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f);
+}
+function finish(){
+  clearInterval(tick);
+  const t=Math.round((Date.now()-t0)/1000),n=qs.length;
+  const bonus=Math.max(-4,Math.min(4,Math.round((900-t)/120)))*sc/n;
+  const iq=Math.round(70+sc*3.5+bonus);
+  last={iq,t};
+  $("lb").textContent=iq>=130?"Sangat tinggi":iq>=115?"Di atas rata-rata":iq>=95?"Rata-rata":"Di bawah rata-rata, masih bisa dilatih";
+  $("sk").textContent=sc+" / "+n;$("wk").textContent=fmt(t);
+  const w=qs.map((x,k)=>ans[k]?"":"<li>Soal "+(k+1)+": jawaban benar "+x.c+"</li>").join("");
+  $("rv").innerHTML=w?"<p>Yang belum tepat:</p><ul>"+w+"</ul>":"<p>Semua jawaban benar.</p>";
+  $("fm").hidden=false;$("nm").value="";
+  show("s2");count(iq);
+}
+function save(){
+  const n=$("nm").value.trim().slice(0,14);
+  if(!n){$("nm").focus();return}
+  const e={n,i:last.iq,t:last.t,d:Date.now()},a=rd();a.push(e);a.sort(srt);wr(a.slice(0,20));
+  $("fm").hidden=true;board(e.d);
+}
+$("go").onclick=start;$("re").onclick=start;$("re2").onclick=start;
+$("lbb").onclick=()=>board(0);$("sv").onclick=save;
+$("nm").onkeydown=e=>{if(e.key==="Enter")save()};
+document.addEventListener("keydown",e=>{if(!$("s1").hidden&&"1234".includes(e.key)&&e.key){const b=$("op").children[+e.key-1];if(b)b.click()}});
+</script></body></html>
